@@ -1,0 +1,152 @@
+请求头：
+:authority
+api123.136470.xyz
+:method
+POST
+:path
+/api/v1/user/coupon/check
+:scheme
+https
+accept
+application/json, text/plain, */*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+authorization
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjY1NzM3LCJzZXNzaW9uIjoiZjI5NWY1YzVlM2NlZTFmMWI0ZjA2ZTJkM2NhNGZmMzgifQ.VQXL5IXiexflKFKFOlOt_K3jH5n14PM9fOIyJd5P59c
+content-length
+236
+content-type
+multipart/form-data; boundary=----WebKitFormBoundaryFZrKS3m9Wn0LquJY
+origin
+https://love.52pokemon66.cc
+priority
+u=1, i
+referer
+https://love.52pokemon66.cc/
+sec-ch-ua
+"Not:A-Brand";v="99", "Microsoft Edge";v="145", "Chromium";v="145"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+cross-site
+theme-ua
+mala-pro
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+
+
+接口：https://api123.136470.xyz/api/v1/user/order/fetch
+
+响应：bCJrbzVvIk5PbCJGSnlGNW5fZCxuN19GayJOSmQwMDEiRTBvSl9GayJOMzEiWlRkRVRKX0ZrIk56cXQxIkVvZVhuSjVfRmsiTkpkMDAxIjVlRW4iTnoxIkVuN0ZUayJOIlhUSjVTX0U3RlpuIjEiNTdva25fSlQiTiJ6SHp3SF1NSE1dSF1IM116TUh0e01dSHp0IjEiWm8wMDJvWm1fSlQiTiJ6SHp3SF1NSE1dSF1IM116TUh0e01dSHp0IjEiNVQ1bzBfb1hUZEo1Ik5IMSJTb0prMEZKOF9vWFRkSjUiTkpkMDAxImtGLFpUZEo1X29YVGRKNSJOYnFIMSIsZDdFMGQsX29YVGRKNSJOSmQwMDEiN245ZEprX29YVGRKNSJOSmQwMDEiMm8wb0pabl9vWFRkSjUiTkpkMDAxIixkN0UwZCxfVDdrbjdfRmssIk5KZDAwMSIsNW81ZCwiTl0xIlpUWFhGLCxGVEpfLDVvNWQsIk5IMSJaVFhYRiwsRlRKXzJvMG9KWm4iTkgxIm9aNWRvMF9aVFhYRiwsRlRKXzJvMG9KWm4iTkpkMDAxIkVvRmtfbzUiTk1iYl1NTTNxM3ExIlo3bm81bmtfbzUiTk1iYl1NTTNxMzMxImRFa281bmtfbzUiTk1iYl1NTTNxcUgxIkUwb0oiTmwiRmsiTjMxIjg3VGRFX0ZrIk56MSI1N29KLDluN19uSm8yMG4iTndIMSJKb1huIk4iXGR0TXd0XGRxdG4zXGRiWjJuXGRiSGJ0XGRie0hdIjEia255RlpuXzBGWEY1Ik5NSDEiLEVubmtfMEZYRjUiTnpISDEiLFNUaSJOTTEiLFQ3NSJOXTEiN25KbmkiTk0xIlpUSjVuSjUiTiJPbFxKICAgICAgICBcIjlubzVkN25cIk5cIlxkdzJaOVxkd2JIMyB3SGMgXGR3a3tNXGRxTVo5XCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHd3d25cZHFITW9cZHtuemtcZHtuTV1cZGJuMjlcZDNrbjlcZDk5SFpcZHF3dEhcZHFITTl6SEhyMkUsXCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHd0MkhcZGJ0M3dcZHRdbjlcZGJ0ejNcZDk5SFpcZGJ3OXtcZDM5a24rXGR7bk1dXGRibjI5XCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJNYzJFLCBcZHRuendcZHQyMmtcZHs5a2tcZDMyWk1cIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogICBsXEogICAgICAgIFwiOW5vNWQ3blwiTlwiXGQzcW5dXGRxdEhNXGR3a3tNXGR0b3F6XGR7OXRdXGR0XVpvdVNvNWNzNFwiMVxKICAgICAgICBcIixkRUVUNzVcIk45bzAsblxKICAgIEwxXEogICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZDN6M3pcZGJIMnF6SCtcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHRiejNcZGJuMjlcZDMyMm5cZHRxSGJcZHdiSEhcZHRxTW90XGR7bjJvXCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKXEogICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZGI5b3tcZGJuWntOUzU1RSxOXC9cLzUuWG5cL0VUbW5YVEpfMFR5blwiMVxKICAgICAgICBcIixkRUVUNzVcIk41N2RuXEogICAgTDFcSiAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHR6b0hcZGI5b3tcZDNdMmJcZHRda3dcZHRNdE1cZHddd3pcZGIzSE1cZHRNe2tcZDNrXXFcZHs5YjlcZGJ0ejNcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEx2IjEiWFRKNVNfRTdGWm4iTmJxSDEiUGRvNzVuN19FN0ZabiJOel1iSDEiU28wOV9lbm83X0U3RlpuIk57YntIMSJlbm83X0U3RlpuIk5xezNIMSI1aVRfZW5vN19FN0ZabiJOSmQwMDEiNVM3bm5fZW5vN19FN0ZabiJOSmQwMDEiVEpuNUZYbl9FN0ZabiJOSmQwMDEiN24sbjVfRTdGWm4iTndxSDEiN24sbjVfNTdvOTlGWl9YbjVTVGsiTk0xIlpvRW9aRjVlXzBGWEY1Ik5KZDAwMSJaN25vNW5rX281Ik5NYnp0TUhienp0MSJkRWtvNW5rX281Ik5NYmJ7SHdIYk0zTEwxbCJGSnlGNW5fZCxuN19GayJOSmQwMDEiRTBvSl9GayJOMzEiWlRkRVRKX0ZrIk56cXsxIkVvZVhuSjVfRmsiTkpkMDAxIjVlRW4iTk0xIkVuN0ZUayJOIlhUSjVTX0U3RlpuIjEiNTdva25fSlQiTiJ6SHp3SHpNSE0zSHp7ek13SHR7cXFxYnp7IjEiWm8wMDJvWm1fSlQiTiJ6SHp3SHpNSE0zSHp7ek13SHR7cXFxYnp7IjEiNVQ1bzBfb1hUZEo1Ik5IMSJTb0prMEZKOF9vWFRkSjUiTkpkMDAxImtGLFpUZEo1X29YVGRKNSJOYnFIMSIsZDdFMGQsX29YVGRKNSJOSmQwMDEiN245ZEprX29YVGRKNSJOSmQwMDEiMm8wb0pabl9vWFRkSjUiTkpkMDAxIixkN0UwZCxfVDdrbjdfRmssIk5KZDAwMSIsNW81ZCwiTl0xIlpUWFhGLCxGVEpfLDVvNWQsIk5IMSJaVFhYRiwsRlRKXzJvMG9KWm4iTkgxIm9aNWRvMF9aVFhYRiwsRlRKXzJvMG9KWm4iTkpkMDAxIkVvRmtfbzUiTk1iYkhiekgzel0xIlo3bm81bmtfbzUiTk1iYkhiekgzenoxImRFa281bmtfbzUiTk1iYkhiekgzenQxIkUwb0oiTmwiRmsiTjMxIjg3VGRFX0ZrIk56MSI1N29KLDluN19uSm8yMG4iTndIMSJKb1huIk4iXGR0TXd0XGRxdG4zXGRiWjJuXGRiSGJ0XGRie0hdIjEia255RlpuXzBGWEY1Ik5NSDEiLEVubmtfMEZYRjUiTnpISDEiLFNUaSJOTTEiLFQ3NSJOXTEiN25KbmkiTk0xIlpUSjVuSjUiTiJPbFxKICAgICAgICBcIjlubzVkN25cIk5cIlxkdzJaOVxkd2JIMyB3SGMgXGR3a3tNXGRxTVo5XCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHd3d25cZHFITW9cZHtuemtcZHtuTV1cZGJuMjlcZDNrbjlcZDk5SFpcZHF3dEhcZHFITTl6SEhyMkUsXCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHd0MkhcZGJ0M3dcZHRdbjlcZGJ0ejNcZDk5SFpcZGJ3OXtcZDM5a24rXGR7bk1dXGRibjI5XCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJNYzJFLCBcZHRuendcZHQyMmtcZHs5a2tcZDMyWk1cIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogICBsXEogICAgICAgIFwiOW5vNWQ3blwiTlwiXGQzcW5dXGRxdEhNXGR3a3tNXGR0b3F6XGR7OXRdXGR0XVpvdVNvNWNzNFwiMVxKICAgICAgICBcIixkRUVUNzVcIk45bzAsblxKICAgIEwxXEogICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZDN6M3pcZGJIMnF6SCtcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHRiejNcZGJuMjlcZDMyMm5cZHRxSGJcZHdiSEhcZHRxTW90XGR7bjJvXCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKXEogICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZGI5b3tcZGJuWntOUzU1RSxOXC9cLzUuWG5cL0VUbW5YVEpfMFR5blwiMVxKICAgICAgICBcIixkRUVUNzVcIk41N2RuXEogICAgTDFcSiAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHR6b0hcZGI5b3tcZDNdMmJcZHRda3dcZHRNdE1cZHddd3pcZGIzSE1cZHRNe2tcZDNrXXFcZHs5YjlcZGJ0ejNcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEx2IjEiWFRKNVNfRTdGWm4iTmJxSDEiUGRvNzVuN19FN0ZabiJOel1iSDEiU28wOV9lbm83X0U3RlpuIk57YntIMSJlbm83X0U3RlpuIk5xezNIMSI1aVRfZW5vN19FN0ZabiJOSmQwMDEiNVM3bm5fZW5vN19FN0ZabiJOSmQwMDEiVEpuNUZYbl9FN0ZabiJOSmQwMDEiN24sbjVfRTdGWm4iTndxSDEiN24sbjVfNTdvOTlGWl9YbjVTVGsiTk0xIlpvRW9aRjVlXzBGWEY1Ik5KZDAwMSJaN25vNW5rX281Ik5NYnp0TUhienp0MSJkRWtvNW5rX281Ik5NYmJ7SHdIYk0zTEx2TA==
+解码：
+[{'invite_user_id': None, 'plan_id': 8, 'coupon_id': 295, 'payment_id': None, 'type': 2, 
+'period': 'month_price', 'trade_no': '2026031013030832105413025', 'callback_no': '2026031013030832105413025', 'total_amount': 0, 'handling_amount': None, 'discount_amount': 790, 
+'surplus_amount': None, 'refund_amount': None, 'balance_amount': None, 'surplus_order_ids': None, 'status': 3, 'commission_status': 0, 'commission_balance': 0, 'actual_commission_balance': None, 'paid_at': 1773118989, 'created_at': 1773118988, 'updated_at': 1773118990, 'plan': {'id': 8, 'group_id': 2, 'transfer_enable': 60, 'name': '入门精灵球', 'device_limit': 10, 'speed_limit': 200, 'show': 1, 'sort': 3, 'renew': 1, 'content': '[{\n       
+ "feature":"每月 60G 流量",\n        "support":true\n    },\n    {\n        "feature":"普
+通中专线路，限速200Mbps",\n        "support":true\n    },\n    {\n        "feature":"新疆
+可用，直连+专线",\n        "support":true\n    },\n    {\n        "feature":"1Gbps 带宽保
+证",\n        "support":true\n    },\n   {\n        "feature":"解锁流媒体及ChatGPT",\n   
+     "support":false\n    },\n     {\n        "feature":"节点20+",\n        "support":true\n    },\n  {\n        "feature":"在线设备最多5人",\n        "support":true\n    },\n\n 
+    {\n        "feature":"群组:https://t.me/pokemon_love",\n        "support":true\n    },\n   {\n        "feature":"加群获取兑换码免费使用",\n        "support":true\n    }]', 'month_price': 790, 'quarter_price': 2370, 'half_year_price': 4740, 'year_price': 9480, 'two_year_price': None, 'three_year_price': None, 'onetime_price': None, 'reset_price': 690, 'reset_traffic_method': 1, 'capacity_limit': None, 'created_at': 1725107225, 'updated_at': 1774060718}}, {'invite_user_id': None, 'plan_id': 8, 'coupon_id': 294, 'payment_id': None, 'type': 1, 'period': 'month_price', 'trade_no': '2026021018024216054999724', 'callback_no': '2026021018024216054999724', 'total_amount': 0, 'handling_amount': None, 'discount_amount': 790, 'surplus_amount': None, 'refund_amount': None, 'balance_amount': None, 'surplus_order_ids': None, 'status': 3, 'commission_status': 0, 'commission_balance': 0, 'actual_commission_balance': None, 'paid_at': 1770720823, 'created_at': 1770720822, 'updated_at': 1770720825, 'plan': {'id': 8, 'group_id': 2, 'transfer_enable': 60, 'name': '入门 
+精灵球', 'device_limit': 10, 'speed_limit': 200, 'show': 1, 'sort': 3, 'renew': 1, 'content': '[{\n        "feature":"每月 60G 流量",\n        "support":true\n    },\n    {\n    
+    "feature":"普通中专线路，限速200Mbps",\n        "support":true\n    },\n    {\n      
+  "feature":"新疆可用，直连+专线",\n        "support":true\n    },\n    {\n        "feature":"1Gbps 带宽保证",\n        "support":true\n    },\n   {\n        "feature":"解锁流媒 
+体及ChatGPT",\n        "support":false\n    },\n     {\n        "feature":"节点20+",\n   
+     "support":true\n    },\n  {\n        "feature":"在线设备最多5人",\n        "support":true\n    },\n\n     {\n        "feature":"群组:https://t.me/pokemon_love",\n        "support":true\n    },\n   {\n        "feature":"加群获取兑换码免费使用",\n        "support":true\n    }]', 'month_price': 790, 'quarter_price': 2370, 'half_year_price': 4740, 'year_price': 9480, 'two_year_price': None, 'three_year_price': None, 'onetime_price': None, 'reset_price': 690, 'reset_traffic_method': 1, 'capacity_limit': None, 'created_at': 1725107225, 'updated_at': 1774060718}}]
+
+接口：https://api123.136470.xyz/api/v1/user/coupon/check
+
+负载：
+code
+雷丘
+plan_id
+8
+
+响应：bCJrbzVvIk5sIkZrIk56cXcxIlpUa24iTiJcZHF3OWJcZHtuTTMiMSJKb1huIk4iXGR0d2syXGR3YkgzXGR7bjlrXGR0TXRNXGR3XXd6XGRiM0hNIjEiNWVFbiJOejEieW8wZG4iTk1ISDEiLFNUaSJOTTEiMEZYRjVfZCxuIk5KZDAwMSIwRlhGNV9kLG5faUY1U19kLG43Ik5NMSIwRlhGNV9FMG9KX0ZrLCJOTyIzIjEiTSJ2MSIwRlhGNV9FbjdGVGsiTk8iWFRKNVNfRTdGWm4idjEiLDVvNzVua19vNSJOTWJ3cXF0Yk1ISDEibkprbmtfbzUiTk1iYmJ0d0hdSEgxIlo3bm81bmtfbzUiTk1iYnRIe3Riel0xImRFa281bmtfbzUiTk1iYnRIe3RiendMTA==
+
+解码：{'id': 296, 'code': '雷丘', 'name': '四月份兑换码', 'type': 2, 'value': 100, 'show': 1, 'limit_use': None, 'limit_use_with_user': 1, 'limit_plan_ids': ['8', '1'], 'limit_period': ['month_price'], 'started_at': 1769957100, 'ended_at': 1777560300, 'created_at': 1775045723, 'updated_at': 1775045726}
+
+接口：
+https://api123.136470.xyz/api/v1/user/order/fetch
+
+响应：
+bCJrbzVvIk5PbCJGSnlGNW5fZCxuN19GayJOSmQwMDEiRTBvSl9GayJOMzEiWlRkRVRKX0ZrIk56cXQxIkVvZVhuSjVfRmsiTkpkMDAxIjVlRW4iTnoxIkVuN0ZUayJOIlhUSjVTX0U3RlpuIjEiNTdva25fSlQiTiJ6SHp3SF1NSE1dSF1IM116TUh0e01dSHp0IjEiWm8wMDJvWm1fSlQiTiJ6SHp3SF1NSE1dSF1IM116TUh0e01dSHp0IjEiNVQ1bzBfb1hUZEo1Ik5IMSJTb0prMEZKOF9vWFRkSjUiTkpkMDAxImtGLFpUZEo1X29YVGRKNSJOYnFIMSIsZDdFMGQsX29YVGRKNSJOSmQwMDEiN245ZEprX29YVGRKNSJOSmQwMDEiMm8wb0pabl9vWFRkSjUiTkpkMDAxIixkN0UwZCxfVDdrbjdfRmssIk5KZDAwMSIsNW81ZCwiTl0xIlpUWFhGLCxGVEpfLDVvNWQsIk5IMSJaVFhYRiwsRlRKXzJvMG9KWm4iTkgxIm9aNWRvMF9aVFhYRiwsRlRKXzJvMG9KWm4iTkpkMDAxIkVvRmtfbzUiTk1iYl1NTTNxM3ExIlo3bm81bmtfbzUiTk1iYl1NTTNxMzMxImRFa281bmtfbzUiTk1iYl1NTTNxcUgxIkUwb0oiTmwiRmsiTjMxIjg3VGRFX0ZrIk56MSI1N29KLDluN19uSm8yMG4iTndIMSJKb1huIk4iXGR0TXd0XGRxdG4zXGRiWjJuXGRiSGJ0XGRie0hdIjEia255RlpuXzBGWEY1Ik5NSDEiLEVubmtfMEZYRjUiTnpISDEiLFNUaSJOTTEiLFQ3NSJOXTEiN25KbmkiTk0xIlpUSjVuSjUiTiJPbFxKICAgICAgICBcIjlubzVkN25cIk5cIlxkdzJaOVxkd2JIMyB3SGMgXGR3a3tNXGRxTVo5XCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHd3d25cZHFITW9cZHtuemtcZHtuTV1cZGJuMjlcZDNrbjlcZDk5SFpcZHF3dEhcZHFITTl6SEhyMkUsXCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHd0MkhcZGJ0M3dcZHRdbjlcZGJ0ejNcZDk5SFpcZGJ3OXtcZDM5a24rXGR7bk1dXGRibjI5XCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJNYzJFLCBcZHRuendcZHQyMmtcZHs5a2tcZDMyWk1cIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogICBsXEogICAgICAgIFwiOW5vNWQ3blwiTlwiXGQzcW5dXGRxdEhNXGR3a3tNXGR0b3F6XGR7OXRdXGR0XVpvdVNvNWNzNFwiMVxKICAgICAgICBcIixkRUVUNzVcIk45bzAsblxKICAgIEwxXEogICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZDN6M3pcZGJIMnF6SCtcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHRiejNcZGJuMjlcZDMyMm5cZHRxSGJcZHdiSEhcZHRxTW90XGR7bjJvXCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKXEogICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZGI5b3tcZGJuWntOUzU1RSxOXC9cLzUuWG5cL0VUbW5YVEpfMFR5blwiMVxKICAgICAgICBcIixkRUVUNzVcIk41N2RuXEogICAgTDFcSiAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHR6b0hcZGI5b3tcZDNdMmJcZHRda3dcZHRNdE1cZHddd3pcZGIzSE1cZHRNe2tcZDNrXXFcZHs5YjlcZGJ0ejNcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEx2IjEiWFRKNVNfRTdGWm4iTmJxSDEiUGRvNzVuN19FN0ZabiJOel1iSDEiU28wOV9lbm83X0U3RlpuIk57YntIMSJlbm83X0U3RlpuIk5xezNIMSI1aVRfZW5vN19FN0ZabiJOSmQwMDEiNVM3bm5fZW5vN19FN0ZabiJOSmQwMDEiVEpuNUZYbl9FN0ZabiJOSmQwMDEiN24sbjVfRTdGWm4iTndxSDEiN24sbjVfNTdvOTlGWl9YbjVTVGsiTk0xIlpvRW9aRjVlXzBGWEY1Ik5KZDAwMSJaN25vNW5rX281Ik5NYnp0TUhienp0MSJkRWtvNW5rX281Ik5NYmJ7SHdIYk0zTEwxbCJGSnlGNW5fZCxuN19GayJOSmQwMDEiRTBvSl9GayJOMzEiWlRkRVRKX0ZrIk56cXsxIkVvZVhuSjVfRmsiTkpkMDAxIjVlRW4iTk0xIkVuN0ZUayJOIlhUSjVTX0U3RlpuIjEiNTdva25fSlQiTiJ6SHp3SHpNSE0zSHp7ek13SHR7cXFxYnp7IjEiWm8wMDJvWm1fSlQiTiJ6SHp3SHpNSE0zSHp7ek13SHR7cXFxYnp7IjEiNVQ1bzBfb1hUZEo1Ik5IMSJTb0prMEZKOF9vWFRkSjUiTkpkMDAxImtGLFpUZEo1X29YVGRKNSJOYnFIMSIsZDdFMGQsX29YVGRKNSJOSmQwMDEiN245ZEprX29YVGRKNSJOSmQwMDEiMm8wb0pabl9vWFRkSjUiTkpkMDAxIixkN0UwZCxfVDdrbjdfRmssIk5KZDAwMSIsNW81ZCwiTl0xIlpUWFhGLCxGVEpfLDVvNWQsIk5IMSJaVFhYRiwsRlRKXzJvMG9KWm4iTkgxIm9aNWRvMF9aVFhYRiwsRlRKXzJvMG9KWm4iTkpkMDAxIkVvRmtfbzUiTk1iYkhiekgzel0xIlo3bm81bmtfbzUiTk1iYkhiekgzenoxImRFa281bmtfbzUiTk1iYkhiekgzenQxIkUwb0oiTmwiRmsiTjMxIjg3VGRFX0ZrIk56MSI1N29KLDluN19uSm8yMG4iTndIMSJKb1huIk4iXGR0TXd0XGRxdG4zXGRiWjJuXGRiSGJ0XGRie0hdIjEia255RlpuXzBGWEY1Ik5NSDEiLEVubmtfMEZYRjUiTnpISDEiLFNUaSJOTTEiLFQ3NSJOXTEiN25KbmkiTk0xIlpUSjVuSjUiTiJPbFxKICAgICAgICBcIjlubzVkN25cIk5cIlxkdzJaOVxkd2JIMyB3SGMgXGR3a3tNXGRxTVo5XCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHd3d25cZHFITW9cZHtuemtcZHtuTV1cZGJuMjlcZDNrbjlcZDk5SFpcZHF3dEhcZHFITTl6SEhyMkUsXCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHd0MkhcZGJ0M3dcZHRdbjlcZGJ0ejNcZDk5SFpcZGJ3OXtcZDM5a24rXGR7bk1dXGRibjI5XCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJNYzJFLCBcZHRuendcZHQyMmtcZHs5a2tcZDMyWk1cIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogICBsXEogICAgICAgIFwiOW5vNWQ3blwiTlwiXGQzcW5dXGRxdEhNXGR3a3tNXGR0b3F6XGR7OXRdXGR0XVpvdVNvNWNzNFwiMVxKICAgICAgICBcIixkRUVUNzVcIk45bzAsblxKICAgIEwxXEogICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZDN6M3pcZGJIMnF6SCtcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHRiejNcZGJuMjlcZDMyMm5cZHRxSGJcZHdiSEhcZHRxTW90XGR7bjJvXCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKXEogICAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZGI5b3tcZGJuWntOUzU1RSxOXC9cLzUuWG5cL0VUbW5YVEpfMFR5blwiMVxKICAgICAgICBcIixkRUVUNzVcIk41N2RuXEogICAgTDFcSiAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZHR6b0hcZGI5b3tcZDNdMmJcZHRda3dcZHRNdE1cZHddd3pcZGIzSE1cZHRNe2tcZDNrXXFcZHs5YjlcZGJ0ejNcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEx2IjEiWFRKNVNfRTdGWm4iTmJxSDEiUGRvNzVuN19FN0ZabiJOel1iSDEiU28wOV9lbm83X0U3RlpuIk57YntIMSJlbm83X0U3RlpuIk5xezNIMSI1aVRfZW5vN19FN0ZabiJOSmQwMDEiNVM3bm5fZW5vN19FN0ZabiJOSmQwMDEiVEpuNUZYbl9FN0ZabiJOSmQwMDEiN24sbjVfRTdGWm4iTndxSDEiN24sbjVfNTdvOTlGWl9YbjVTVGsiTk0xIlpvRW9aRjVlXzBGWEY1Ik5KZDAwMSJaN25vNW5rX281Ik5NYnp0TUhienp0MSJkRWtvNW5rX281Ik5NYmJ7SHdIYk0zTEx2TA==
+
+解码：[{'invite_user_id': None, 'plan_id': 8, 'coupon_id': 295, 'payment_id': None, 'type': 2, 
+'period': 'month_price', 'trade_no': '2026031013030832105413025', 'callback_no': '2026031013030832105413025', 'total_amount': 0, 'handling_amount': None, 'discount_amount': 790, 
+'surplus_amount': None, 'refund_amount': None, 'balance_amount': None, 'surplus_order_ids': None, 'status': 3, 'commission_status': 0, 'commission_balance': 0, 'actual_commission_balance': None, 'paid_at': 1773118989, 'created_at': 1773118988, 'updated_at': 1773118990, 'plan': {'id': 8, 'group_id': 2, 'transfer_enable': 60, 'name': '入门精灵球', 'device_limit': 10, 'speed_limit': 200, 'show': 1, 'sort': 3, 'renew': 1, 'content': '[{\n       
+ "feature":"每月 60G 流量",\n        "support":true\n    },\n    {\n        "feature":"普
+通中专线路，限速200Mbps",\n        "support":true\n    },\n    {\n        "feature":"新疆
+可用，直连+专线",\n        "support":true\n    },\n    {\n        "feature":"1Gbps 带宽保
+证",\n        "support":true\n    },\n   {\n        "feature":"解锁流媒体及ChatGPT",\n   
+     "support":false\n    },\n     {\n        "feature":"节点20+",\n        "support":true\n    },\n  {\n        "feature":"在线设备最多5人",\n        "support":true\n    },\n\n 
+    {\n        "feature":"群组:https://t.me/pokemon_love",\n        "support":true\n    },\n   {\n        "feature":"加群获取兑换码免费使用",\n        "support":true\n    }]', 'month_price': 790, 'quarter_price': 2370, 'half_year_price': 4740, 'year_price': 9480, 'two_year_price': None, 'three_year_price': None, 'onetime_price': None, 'reset_price': 690, 'reset_traffic_method': 1, 'capacity_limit': None, 'created_at': 1725107225, 'updated_at': 1774060718}}, {'invite_user_id': None, 'plan_id': 8, 'coupon_id': 294, 'payment_id': None, 'type': 1, 'period': 'month_price', 'trade_no': '2026021018024216054999724', 'callback_no': '2026021018024216054999724', 'total_amount': 0, 'handling_amount': None, 'discount_amount': 790, 'surplus_amount': None, 'refund_amount': None, 'balance_amount': None, 'surplus_order_ids': None, 'status': 3, 'commission_status': 0, 'commission_balance': 0, 'actual_commission_balance': None, 'paid_at': 1770720823, 'created_at': 1770720822, 'updated_at': 1770720825, 'plan': {'id': 8, 'group_id': 2, 'transfer_enable': 60, 'name': '入门 
+精灵球', 'device_limit': 10, 'speed_limit': 200, 'show': 1, 'sort': 3, 'renew': 1, 'content': '[{\n        "feature":"每月 60G 流量",\n        "support":true\n    },\n    {\n    
+    "feature":"普通中专线路，限速200Mbps",\n        "support":true\n    },\n    {\n      
+  "feature":"新疆可用，直连+专线",\n        "support":true\n    },\n    {\n        "feature":"1Gbps 带宽保证",\n        "support":true\n    },\n   {\n        "feature":"解锁流媒 
+体及ChatGPT",\n        "support":false\n    },\n     {\n        "feature":"节点20+",\n   
+     "support":true\n    },\n  {\n        "feature":"在线设备最多5人",\n        "support":true\n    },\n\n     {\n        "feature":"群组:https://t.me/pokemon_love",\n        "support":true\n    },\n   {\n        "feature":"加群获取兑换码免费使用",\n        "support":true\n    }]', 'month_price': 790, 'quarter_price': 2370, 'half_year_price': 4740, 'year_price': 9480, 'two_year_price': None, 'three_year_price': None, 'onetime_price': None, 'reset_price': 690, 'reset_traffic_method': 1, 'capacity_limit': None, 'created_at': 1725107225, 'updated_at': 1774060718}}]
+
+接口：https://api123.136470.xyz/api/v1/user/order/save
+
+负载：plan_id
+8
+period
+month_price
+coupon_code
+雷丘
+
+响应：bCJrbzVvIk4iekh6d0h7ejN6TUh7XXpdSGJNSDN6d3RNeiJM
+
+解码：2026042821043230710826512
+
+接口：https://api123.136470.xyz/api/v1/user/order/getPaymentMethod
+
+响应：bCJrbzVvIk5PbCJGayJOTXQxIkpvWG4iTiJcZHd0ejlcZHtuazNcZHQycWt7JVxkd3p7MlxkYm5ua1xkM2tdcVxke25dMlxkcUhNb1xkcUh0XVxkazNda1xka1p7cVxkM3pudFxkd3d6OVxke25Ia1xkdF1uOVxke25udFxkYnR6M1xkMzI5YlxkdHpIYlxkd113elxkdHFIYlxkYnR6MyIxIkVvZVhuSjUiTiJZc29lIjEiRlpUSiJOSmQwMDEiU29KazBGSjhfOW5uXzlGYW5rIk5KZDAwMSJTb0prMEZKOF85bm5fRW43Wm5KNSJOInsuSEgiTDFsIkZrIk5xMSJKb1huIk4iXGR3dHo5XGR7bmszXGR0MnFrXGR0cUhiXGRidHozelxkOW5IOVxkekhuXV0lXGR3ensyXGRibm5rXGQza11xIjEiRW9lWG5KNSJOIllzb2UiMSJGWlRKIk5KZDAwMSJTb0prMEZKOF85bm5fOUZhbmsiTkgxIlNvSmswRko4Xzlubl9Fbjdabko1Ik4iXS5ISCJMMWwiRmsiTk1iMSJKb1huIk4iXGR3dHo5XGR7bmszXGR0MnFrXGR0cUhiXGRidHozXVxkOW5IOVxkekhuXXslXGR3ensyXGRibm5rXGQza11xIjEiRW9lWG5KNSJOIllzb2UiMSJGWlRKIk5KZDAwMSJTb0prMEZKOF85bm5fOUZhbmsiTkpkMDAxIlNvSmswRko4Xzlubl9Fbjdabko1Ik4iey5ISCJMMWwiRmsiTk13MSJKb1huIk4iXGR0OW9uXGR7OW5NXGR7bl0ydCVcZHd6ezJcZGJubmtcZDNrXXFcZHFITW9cZHFIdF1cZGszXWtcZGtae3FcZDN6bnRcZHd3ejlcZHtuSGtcZHRdbjlcZHtubnRcZGJ0ejNcZDMyOWJcZHR6SGJcZHddd3pcZHRxSGJcZGJ0ejMiMSJFb2VYbko1Ik4iWXNvZSIxIkZaVEoiTkpkMDAxIlNvSmswRko4Xzlubl85RmFuayJOSmQwMDEiU29KazBGSjhfOW5uX0VuN1puSjUiTiJ0LkhIIkwxbCJGayJOTTMxIkpvWG4iTiJcZHQ5b25cZHs5bk1cZHRxSGJcZGJ0ejN0JVxkd3p7MlxkYm5ua1xkM2tdcSIxIkVvZVhuSjUiTiJZc29lIjEiRlpUSiJOSmQwMDEiU29KazBGSjhfOW5uXzlGYW5rIk5KZDAwMSJTb0prMEZKOF85bm5fRW43Wm5KNSJOInQuSEgiTHZM
+
+解码：[{'id': 15, 'name': '支付宝4%手续费主通道👉若是不可以用请切换备用', 'payment': 'EPay', 'icon': None, 'handling_fee_fixed': None, 'handling_fee_percent': '4.00'}, {'id': 9, 'name': '支付宝备用2️⃣3%手续费', 'payment': 'EPay', 'icon': None, 'handling_fee_fixed': 0, 'han
+dling_fee_percent': '3.00'}, {'id': 17, 'name': '支付宝备用3️⃣4%手续费', 'payment': 'EPay
+', 'icon': None, 'handling_fee_fixed': None, 'handling_fee_percent': '4.00'}, {'id': 16, 
+'name': '微信主5%手续费通道👉若是不可以用请切换备用', 'payment': 'EPay', 'icon': None, 'handling_fee_fixed': None, 'handling_fee_percent': '5.00'}, {'id': 18, 'name': '微信备用5%手续费', 'payment': 'EPay', 'icon': None, 'handling_fee_fixed': None, 'handling_fee_percent': '5.00'}]
+
+接口：https://api123.136470.xyz/api/v1/user/order/detail?trade_no=2026042821043230710826512
+
+负载：trade_no
+2026042821043230710826512
+
+响应：bCJrbzVvIk5sIkZrIk5xSEh0ejMxIkZKeUY1bl9kLG43X0ZrIk5KZDAwMSJkLG43X0ZrIk56d3RiXWIxIkUwb0pfRmsiTjMxIlpUZEVUSl9GayJOenF3MSJFb2VYbko1X0ZrIk5KZDAwMSI1ZUVuIk5NMSJFbjdGVGsiTiJYVEo1U19FN0ZabiIxIjU3b2tuX0pUIk4iekh6d0h7ejN6TUh7XXpdSGJNSDN6d3RNeiIxIlpvMDAyb1ptX0pUIk5KZDAwMSI1VDVvMF9vWFRkSjUiTkgxIlNvSmswRko4X29YVGRKNSJOSmQwMDEia0YsWlRkSjVfb1hUZEo1Ik5icUgxIixkN0UwZCxfb1hUZEo1Ik5KZDAwMSI3bjlkSmtfb1hUZEo1Ik5KZDAwMSIybzBvSlpuX29YVGRKNSJOSmQwMDEiLGQ3RTBkLF9UN2tuN19GaywiTkpkMDAxIiw1bzVkLCJOSDEiWlRYWEYsLEZUSl8sNW81ZCwiTkgxIlpUWFhGLCxGVEpfMm8wb0pabiJOSDEib1o1ZG8wX1pUWFhGLCxGVEpfMm8wb0pabiJOSmQwMDEiRW9Ga19vNSJOSmQwMDEiWjdubzVua19vNSJOTWJiYl0zXXddejEiZEVrbzVua19vNSJOTWJiYl0zXXddejEiRTBvSiJObCJGayJOMzEiODdUZEVfRmsiTnoxIjU3b0osOW43X25KbzIwbiJOd0gxIkpvWG4iTiJcZHRNd3RcZHF0bjNcZGJaMm5cZGJIYnRcZGJ7SF0iMSJrbnlGWm5fMEZYRjUiTk1IMSIsRW5ua18wRlhGNSJOekhIMSIsU1RpIk5NMSIsVDc1Ik5dMSI3bkpuaSJOTTEiWlRKNW5KNSJOIk9sXEogICAgICAgIFwiOW5vNWQ3blwiTlwiXGR3Mlo5XGR3YkgzIHdIYyBcZHdre01cZHFNWjlcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogICAgbFxKICAgICAgICBcIjlubzVkN25cIk5cIlxkd3d3blxkcUhNb1xke256a1xke25NXVxkYm4yOVxkM2tuOVxkOTlIWlxkcXd0SFxkcUhNOXpISHIyRSxcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogICAgbFxKICAgICAgICBcIjlubzVkN25cIk5cIlxkd3QySFxkYnQzd1xkdF1uOVxkYnR6M1xkOTlIWlxkYnc5e1xkMzlrbitcZHtuTV1cZGJuMjlcIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEogICAgbFxKICAgICAgICBcIjlubzVkN25cIk5cIk1jMkUsIFxkdG56d1xkdDIya1xkezlra1xkMzJaTVwiMVxKICAgICAgICBcIixkRUVUNzVcIk41N2RuXEogICAgTDFcSiAgIGxcSiAgICAgICAgXCI5bm81ZDduXCJOXCJcZDNxbl1cZHF0SE1cZHdre01cZHRvcXpcZHs5dF1cZHRdWm91U281Y3M0XCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjlvMCxuXEogICAgTDFcSiAgICAgbFxKICAgICAgICBcIjlubzVkN25cIk5cIlxkM3ozelxkYkgycXpIK1wiMVxKICAgICAgICBcIixkRUVUNzVcIk41N2RuXEogICAgTDFcSiAgbFxKICAgICAgICBcIjlubzVkN25cIk5cIlxkdGJ6M1xkYm4yOVxkMzIyblxkdHFIYlxkd2JISFxkdHFNb3RcZHtuMm9cIjFcSiAgICAgICAgXCIsZEVFVDc1XCJONTdkblxKICAgIEwxXEpcSiAgICAgbFxKICAgICAgICBcIjlubzVkN25cIk5cIlxkYjlve1xkYm5ae05TNTVFLE5cL1wvNS5YblwvRVRtblhUSl8wVHluXCIxXEogICAgICAgIFwiLGRFRVQ3NVwiTjU3ZG5cSiAgICBMMVxKICAgbFxKICAgICAgICBcIjlubzVkN25cIk5cIlxkdHpvSFxkYjlve1xkM10yYlxkdF1rd1xkdE10TVxkd113elxkYjNITVxkdE17a1xkM2tdcVxkezliOVxkYnR6M1wiMVxKICAgICAgICBcIixkRUVUNzVcIk41N2RuXEogICAgTHYiMSJYVEo1U19FN0ZabiJOYnFIMSJQZG83NW43X0U3RlpuIk56XWJIMSJTbzA5X2VubzdfRTdGWm4iTntie0gxImVubzdfRTdGWm4iTnF7M0gxIjVpVF9lbm83X0U3RlpuIk5KZDAwMSI1Uzdubl9lbm83X0U3RlpuIk5KZDAwMSJUSm41RlhuX0U3RlpuIk5KZDAwMSI3bixuNV9FN0ZabiJOd3FIMSI3bixuNV81N285OUZaX1huNVNUayJOTTEiWm9Fb1pGNWVfMEZYRjUiTkpkMDAxIlo3bm81bmtfbzUiTk1ienRNSGJ6enQxImRFa281bmtfbzUiTk1iYntId0hiTTNMMSI1N2VfVGQ1X0Uwb0pfRmsiTkhMTA==
+
+解码：{'id': 900528, 'invite_user_id': None, 'user_id': 265737, 'plan_id': 8, 'coupon_id': 296, 'payment_id': None, 'type': 1, 'period': 'month_price', 'trade_no': '2026042821043230710826512', 'callback_no': None, 'total_amount': 0, 'handling_amount': None, 'discount_amount': 790, 'surplus_amount': None, 'refund_amount': None, 'balance_amount': None, 'surplus_order_ids': None, 'status': 0, 'commission_status': 0, 'commission_balance': 0, 'actual_commission_balance': None, 'paid_at': None, 'created_at': 1777383632, 'updated_at': 1777383632, 'plan': {'id': 8, 'group_id': 2, 'transfer_enable': 60, 'name': '入门精灵球', 'device_limit': 10, 'speed_limit': 200, 'show': 1, 'sort': 3, 'renew': 1, 'content': '[{\n    
+    "feature":"每月 60G 流量",\n        "support":true\n    },\n    {\n        "feature":"普通中专线路，限速200Mbps",\n        "support":true\n    },\n    {\n        "feature":" 
+新疆可用，直连+专线",\n        "support":true\n    },\n    {\n        "feature":"1Gbps 带
+宽保证",\n        "support":true\n    },\n   {\n        "feature":"解锁流媒体及ChatGPT",\n        "support":false\n    },\n     {\n        "feature":"节点20+",\n        "support":true\n    },\n  {\n        "feature":"在线设备最多5人",\n        "support":true\n    },\n\n     {\n        "feature":"群组:https://t.me/pokemon_love",\n        "support":true\n 
+   },\n   {\n        "feature":"加群获取兑换码免费使用",\n        "support":true\n    }]', 'month_price': 790, 'quarter_price': 2370, 'half_year_price': 4740, 'year_price': 9480, 'two_year_price': None, 'three_year_price': None, 'onetime_price': None, 'reset_price': 
+690, 'reset_traffic_method': 1, 'capacity_limit': None, 'created_at': 1725107225, 'updated_at': 1774060718}, 'try_out_plan_id': 0}
+
+接口：
+https://api123.136470.xyz/api/v1/user/order/checkout
+
+负载：trade_no
+2026042821043230710826512
+method
+1
+
+响应：bCI1ZUVuIk4tTTEia281byJONTdkbkw=
+
+解码：True
+
+接口：
+https://api123.136470.xyz/api/v1/user/order/check?trade_no=2026042821043230710826512
+
+响应：bCJrbzVvIk5NTA==
+
+解码：1
+
