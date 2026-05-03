@@ -2,6 +2,7 @@ import base64
 import json
 import os
 import sys
+import time
 import threading
 import tkinter as tk
 from tkinter import ttk, messagebox
@@ -127,10 +128,15 @@ class App:
         self.root = root
         self.root.title("宝可梦多账号管家")
         self.root.iconbitmap(resource_path("1.ico"))
-        self.root.geometry("940x760")
         self.root.resizable(True, True)
         self.root.minsize(940, 700)
         self.root.configure(bg=C_BG)
+
+        sw = self.root.winfo_screenwidth()
+        sh = self.root.winfo_screenheight()
+        x = (sw - 940) // 2
+        y = (sh - 760) // 2
+        self.root.geometry(f"940x760+{x}+{y}")
 
         self.saved_users = []
         self._user_cache = {}
@@ -394,6 +400,7 @@ class App:
             ("UUID", "uuid"),
             ("到期时间", "expire_at"),
             ("设备限制", "device_limit"),
+            ("刷新时间", "refresh_at"),
         ]
         self.info_labels = {}
         for text, key in labels_info:
@@ -650,10 +657,14 @@ class App:
         def on_click(e):
             self._on_user_click(email)
 
+        def on_right_click(e):
+            self._show_user_context_menu(e, email)
+
         for w in (frame, inner, text_frame, email_label, remain_label, avatar):
             w.bind("<Enter>", on_enter)
             w.bind("<Leave>", on_leave)
             w.bind("<Button-1>", on_click)
+            w.bind("<Button-3>", on_right_click)
 
         count = sum(1 for w in self.user_list_inner.winfo_children() if hasattr(w, 'user_email'))
         self.user_count_label.config(text=f"{count} 位训练师")
@@ -681,6 +692,34 @@ class App:
                     threading.Thread(
                         target=self._fetch_data, args=(user['token'], False), daemon=True).start()
                 break
+
+    def _show_user_context_menu(self, event, email):
+        menu = tk.Menu(self.root, tearoff=0)
+        menu.add_command(label="删除", command=lambda: self._delete_user(email))
+        menu.post(event.x_root, event.y_root)
+
+    def _delete_user(self, email):
+        for widget in self.user_list_inner.winfo_children():
+            if hasattr(widget, 'user_email') and widget.user_email == email:
+                widget.destroy()
+                break
+
+        self._user_cache.pop(email, None)
+        self.saved_users = [u for u in self.saved_users if u['email'] != email]
+
+        count = sum(1 for w in self.user_list_inner.winfo_children() if hasattr(w, 'user_email'))
+        self.user_count_label.config(text=f"{count} 位训练师")
+
+        if count == 0:
+            self.empty_hint.pack(expand=True, pady=40)
+
+        if self._active_user_email == email:
+            self._active_user_email = None
+            self._displayed_email = None
+            self.result_frame.pack_forget()
+
+        self._save_config()
+        self._log(f"已删除用户  {email}", "info")
 
     def _on_open_login(self):
         LoginDialog(self)
@@ -721,26 +760,40 @@ class App:
             threading.Thread(target=self._fetch_data, args=(token, True), daemon=True).start()
 
     def _on_force_refresh(self):
-        token = self.token_var.get().strip()
-        if not token:
-            messagebox.showwarning("提示", "请先输入 Token")
+        if not self.saved_users:
+            messagebox.showwarning("提示", "暂无训练师可刷新")
             return
 
-        self._log("强制刷新...", "info")
-        self._displayed_email = None
+        self._log("全局刷新...", "info")
+        self._displayed_email = self._active_user_email
         self.result_frame.pack_forget()
         self.root.config(cursor="watch")
-        threading.Thread(target=self._fetch_data, args=(token, True), daemon=True).start()
+        threading.Thread(target=self._fetch_all_data, daemon=True).start()
 
-    def _fetch_data(self, token, show_loading=True):
+    def _fetch_all_data(self):
+        total = len(self.saved_users)
+        active_email = self._active_user_email
+        for i, user in enumerate(self.saved_users):
+            token = user['token']
+            email = user['email']
+            is_active = (email == active_email)
+            self._log(f"刷新 ({i + 1}/{total})  {email}", "info")
+            self._fetch_data(token, show_loading=is_active, reset_cursor=False)
+        self.root.after(0, lambda: self.root.config(cursor=""))
+
+    def _fetch_data(self, token, show_loading=True, reset_cursor=True):
         try:
             session = requests.Session()
             session.trust_env = False
-            headers = {**DEFAULT_HEADERS, "Authorization": token}
+            headers = {**DEFAULT_HEADERS, "Authorization": token,
+                       "Cache-Control": "no-cache, no-store, must-revalidate",
+                       "Pragma": "no-cache"}
             headers = {k: v.encode('ascii', errors='ignore').decode()
                        for k, v in headers.items()}
 
-            resp = session.get(API_URL, headers=headers, timeout=15)
+            resp = session.get(API_URL, headers=headers,
+                               params={"_t": int(time.time() * 1000)},
+                               timeout=15)
 
             if resp.status_code != 200:
                 if show_loading:
@@ -767,7 +820,7 @@ class App:
                 self._log(f"未知错误: {e}", "error")
                 self.root.after(0, lambda: self._show_error(f"未知错误: {e}"))
         finally:
-            if show_loading:
+            if show_loading and reset_cursor:
                 self.root.after(0, lambda: self.root.config(cursor=""))
 
     def _display_user_data(self, user, token):
@@ -793,6 +846,9 @@ class App:
         self.info_labels["device_limit"].config(
             text=f"{device_limit} 台" if isinstance(device_limit, (int, float))
             else str(device_limit))
+
+        self.info_labels["refresh_at"].config(
+            text=datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 
         transfer_b = user.get('transfer_enable', 0)
         used_b = user.get('u', 0) + user.get('d', 0)

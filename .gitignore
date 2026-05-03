@@ -6,3 +6,11 @@ dist/
 config.json
 .vscode/
 *.code-workspace
+.trae/
+login.py
+解码.py
+套餐.py
+兑换码使用流程.py
+1.py
+love.52pokemon66.cc-套餐请求接口.txt
+登录接口
