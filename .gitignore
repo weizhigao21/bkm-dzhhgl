@@ -7,6 +7,7 @@ config.json
 .vscode/
 *.code-workspace
 .trae/
+.workbuddy/
 login.py
 解码.py
 套餐.py
